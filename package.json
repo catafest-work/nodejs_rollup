@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_rollup",
+  "version": "1.0.0",
+  "description": "a simple example with rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "catafest",
+    "rollup"
+  ],
+  "author": "catafest",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "rollup": "^3.21.4"
+  }
+}
